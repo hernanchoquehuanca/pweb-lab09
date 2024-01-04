@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Consulta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Consultas sobre universidades licenciadas</h1>
+    <form action="cgi-bin/consulta.cgi">
+        <input type="text" name="name_university" placeholder="Nombre Universidad" class="input-consulta" >
+        <input type="text" name="licensing_period" placeholder="Periodo Licenciamiento" class="input-consulta" >
+        <input type="text" name="local_department" placeholder="Departamento Local" class="input-consulta" >
+        <input type="text" name="program_name" placeholder="Denominaci&oacute;n Programa" class="input-consulta" >
+        <br><input type="submit" value="Buscar" class="button">
+    </form>
+  </div>
+</body>
+</html>
